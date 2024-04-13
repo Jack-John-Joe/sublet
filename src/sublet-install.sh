@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Installing Sublet.."
 echo "<#________________>"
-curl # i'll put the github user content link here latero
+wget # i'll put the github user content link here latero
 unzip installfiles.zip -d ~/sublet/temp/
 clear 
 echo "Installing Sublet.."
@@ -40,13 +40,13 @@ else
     OS=$(awk '/DISTRIB_ID=/' /etc/*-release | sed 's/DISTRIB_ID=//' | tr '[:upper:]' '[:lower:]')
     echo "$OS"
 fi
-clr
+clear
 echo "ver: 0.1.1"
 distro: $NAME
 macOS: false
 preset: 1" > /sublet/temp/config/config.yaml
 sudo cd ~/sublet/temp
-sudo cp -a ./db.yaml /sublet/
+sudo cp -a ./db.xml /sublet/
 sudo cp ~/sublet/temp/extra /sublet/x
 echo "#!/bin/bash /sublet/x/updater.sh" > /etc/init.d/update.sh
 # I FORGOT TO CHMOD IT UP SHIT
@@ -55,5 +55,5 @@ sudo chmod +x /etc/init.d/update.sh
 echo "Preparing Sublet.."
 echo "Cleaning up.."
 rm -rf ~/sublet
-echo "Sublet 0.1.1 has been installed."
+echo "Sublet 0.2.0 has been installed."
 end
