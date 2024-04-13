@@ -16,4 +16,7 @@ compiling from source, .sublet, and flatpak/appimage/deb/rpm shit will be delaye
 # where to download
 ~~Go to the Releases page for stable release.~~
 <br>stable releases don't exist up
-<br>go to github actions for latest build
+<br>~~go to github actions for latest build~~
+<br> those broke
+<br> compile up the C# and replicate what the shell script does
+<br> i'll be testing with github codespaces (I have no linux devices as of now)
