@@ -12,3 +12,8 @@
 
 # sublet app store is being prioritized
 compiling from source, .sublet, and flatpak/appimage/deb/rpm shit will be delayed up
+
+# where to download
+~~Go to the Releases page for stable release.~~
+<br>stable releases don't exist up
+<br>go to github actions for latest build
