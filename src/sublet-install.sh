@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Installing Sublet.."
 echo "<#________________>"
-wget # i'll put the github user content link here latero
+wget https://github.com/Jack-John-Joe/sublet/raw/main/installfiles.zip
 unzip installfiles.zip -d ~/sublet/temp/
 clear 
 echo "Installing Sublet.."
