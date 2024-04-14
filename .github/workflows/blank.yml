@@ -27,19 +27,10 @@ jobs:
 
 
       # Runs a set of commands using the runners shell
-      - name: Install Dependencies and Build Tools and Compile it Up
+      - name: compilte it up
         run: |
-          sudo add-apt-repository -y ppa:neurobin/ppa
-          sudo apt-get update
-          sudo apt-get install shc
-          sudo apt install mono-complete
-          shc -f sublet.sh
-          unzip installfiles.zip -d ./installfiles/
-          rm -rf ./installfiles.zip
-          cp -a sublet.x ./installfiles/sublet/temp
-          mcs -out:sublet sublet.cs
-          cp -a sublet ./installfiles/sublet/temp/extras
-          zip -r zip myfile.zip ./installfiles/
+        chmod +x build.sh
+        ./build.sh
           
         
 
