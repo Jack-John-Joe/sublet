@@ -20,3 +20,10 @@ compiling from source, .sublet, and flatpak/appimage/deb/rpm shit will be delaye
 <br> those broke
 <br> compile up the C# and replicate what the shell script does
 <br> i'll be testing with github codespaces (I have no linux devices as of now)
+
+# sublet overhaul
+sublet is in a major overhaul
+<br>hopefully done by Sunday (tommorow as of writing this)
+<br>a lot is gonna be done up, it'll be great
+<br>also coolnew things like legacy version and core version, coming soon
+<br>star up
