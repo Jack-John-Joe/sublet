@@ -9,4 +9,12 @@
     <size>0 KB</size>
     <id>0x1</id>
   </app>
+  <app category="utility">
+    <title>pak-suite</title>
+    <author>7jack443</author>
+    <creation>April 13, 2024</creation>
+    <updated>April 13,2024</updated>
+    <size>Unknown</size>
+    <id>0x2</id>
+  </app>
 </db>
