@@ -18,5 +18,8 @@ compiling from source, .sublet, and flatpak/appimage/deb/rpm shit will be delaye
 <br>stable releases don't exist up
 <br>~~go to github actions for latest build~~
 <br> those broke
-<br> compile up the C# and replicate what the shell script does
+<br> ~~compile up the C# and replicate what the shell script does~~
 <br> i'll be testing with github codespaces (I have no linux devices as of now)
+<br> download source, run build.sh
+<br> you might get some crap about replaccing files, say yes
+<br> then run sublet-install.sh

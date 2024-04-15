@@ -1,0 +1,5 @@
+/Users/jackroyer/Documents/GitHub/sublet/obj/Debug/net8.0/linux-x64/sublet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jackroyer/Documents/GitHub/sublet/obj/Debug/net8.0/linux-x64/sublet.AssemblyInfoInputs.cache
+/Users/jackroyer/Documents/GitHub/sublet/obj/Debug/net8.0/linux-x64/sublet.AssemblyInfo.cs
+/Users/jackroyer/Documents/GitHub/sublet/obj/Debug/net8.0/linux-x64/sublet.csproj.CoreCompileInputs.cache
+/Users/jackroyer/Documents/GitHub/sublet/obj/Debug/net8.0/linux-x64/sublet.sourcelink.json

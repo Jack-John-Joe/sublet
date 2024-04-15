@@ -1,0 +1,4 @@
+ver: 0.1.0
+distro: # auto-set by installer
+macOS: false # this feature won't exist for a while, but macos support is planned since macports and brew are limited
+preset: 1

@@ -11,17 +11,18 @@ class Sublet
     static async Task Main()
     {
         Console.Write("Application name: ");
-        string input = Console.ReadLine();
+        string input = Console.ReadLine() ?? string.Empty;  // Handle possible null
 
         Environment.SetEnvironmentVariable("appn", input, EnvironmentVariableTarget.Process);
 
-        string appn = Environment.GetEnvironmentVariable("appn");
+        string appn = Environment.GetEnvironmentVariable("appn") ?? string.Empty; // Handle possible null
         Console.WriteLine($"Selected '{appn}'");
 
         try
         {
             XmlDocument doc = new XmlDocument();
-            doc.Load("/sublet/extras/db.xml");
+            doc.Load("/sublet/extra/db.xml");  
+
             XmlNode node = doc.DocumentElement.SelectSingleNode($"/db/app/{appn}/id");
 
             if (node == null)
@@ -34,7 +35,7 @@ class Sublet
 
             Console.WriteLine($"Downloading and extracting app package for '{appid}'...");
 
-            // Download and extract the zip file before proceeding
+          
             await DownloadAndExtractZip(appid);
 
             string shellScriptPath = "/sublet/temp/g/msubl.sh";
@@ -65,7 +66,7 @@ class Sublet
                     await response.Content.CopyToAsync(fs);
                 }
 
-                // Ensure the directory is cleared before extracting
+   
                 if (Directory.Exists(extractionPath))
                 {
                     Directory.Delete(extractionPath, true);
@@ -75,7 +76,7 @@ class Sublet
                 ZipFile.ExtractToDirectory(zipPath, extractionPath, true);
                 Console.WriteLine("Extraction complete.");
 
-                // Optionally delete the zip file after extraction
+
                 File.Delete(zipPath);
             }
             else
