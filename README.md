@@ -23,3 +23,11 @@ compiling from source, .sublet, and flatpak/appimage/deb/rpm shit will be delaye
 <br> download source, run build.sh
 <br> you might get some crap about replaccing files, say yes
 <br> then run sublet-install.sh
+
+# sublet overhaul
+sublet is in a major overhaul
+<br>hopefully done by Sunday (tommorow as of writing this)
+<br>a lot is gonna be done up, it'll be great
+<br>also coolnew things like legacy version and core version, coming soon
+<br>gui version of sublet too, it'll prolly be dogshit but still,
+<br>star up
