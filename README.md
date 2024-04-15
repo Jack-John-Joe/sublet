@@ -31,3 +31,12 @@ sublet is in a major overhaul
 <br>also coolnew things like legacy version and core version, coming soon
 <br>gui version of sublet too, it'll prolly be dogshit but still,
 <br>star up
+
+# sublet core "versions"
+there's gonna be 2 sublet Cores
+<br>sublet core and subcore
+<br>the difference is that one is just very minimal sublet (subcore) and one is extremely limited (core)
+
+# there's also planned
+sublet-gui
+<br>written in java (or maybe c# just to make it easier for me to compile)
