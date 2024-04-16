@@ -1,0 +1,13 @@
+[db]
+dbv = 3
+
+[db.app]
+category = "utility"
+
+[db.app.details]
+title = "Test Application"
+author = "John Doe"
+creation = "April 13, 2024"
+updated = "April 13, 2024"
+size = "0 KB"
+id = "0x1"
